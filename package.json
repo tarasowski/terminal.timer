@@ -1,6 +1,6 @@
 {
-  "name": "terminal.timer",
-  "version": "0.0.1",
+  "name": "terminal-pomodoro",
+  "version": "0.0.2",
   "description": "Simple pomodoro terminal timer",
   "main": "timer.js",
   "scripts": {
@@ -15,5 +15,6 @@
   },
   "homepage": "https://github.com/tarasowski/terminal.timer",
   "author": "Dimitri Tarasowski <dimitri+npm@tarasowski.de>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
