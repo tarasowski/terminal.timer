@@ -13,7 +13,9 @@ const counter = sec =>
         ? pause()
         : print('Work')(sec) && setTimeout(() => counter(sec - 1), 1000)
 
-counter((process.argv[2] * 60) || 1500)
+
+module.exports = { counter }
+
 
 
 
