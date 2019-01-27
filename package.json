@@ -1,6 +1,6 @@
 {
   "name": "terminal-pomodoro",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple pomodoro terminal timer",
   "main": "timer.js",
   "scripts": {
