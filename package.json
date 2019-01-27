@@ -1,0 +1,11 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "Simple pomodoro terminal timer",
+  "main": "timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimitri Tarasowski <dimitri+npm@tarasowski.de>",
+  "license": "ISC"
+}
