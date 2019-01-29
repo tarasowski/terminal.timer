@@ -4,7 +4,7 @@ const compose = (...fns) => x =>
     fns.reduceRight((v, f) => f(v), x)
 
 const print = type => sec =>
-    process.stdout.write(`Remaining Time fo ${type}: ` + Math.round(sec / 60) + " Minutes \r")
+    process.stdout.write(`Remaining Time for ${type}: ` + Math.round(sec / 60) + " Minutes \r")
 
 const message = msg => () =>
     exec(`osascript -e 'display notification "${msg.message}" with title "${msg.title}" sound name "Submarine"'`)
