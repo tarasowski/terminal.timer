@@ -1,13 +1,13 @@
 {
   "name": "terminal-pomodoro",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple pomodoro terminal timer",
   "main": "timer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "timer": "./cli.js"
+    "t": "./cli.js"
   },
   "repository": {
     "type": "git",
